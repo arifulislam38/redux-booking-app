@@ -11,7 +11,7 @@ function App() {
       <Provider store={store}>
         <Header></Header>
         <BookSection></BookSection>
-        {/* <BookingTable></BookingTable> */}
+        <BookingTable></BookingTable>
       </Provider>
     </div>
   );
