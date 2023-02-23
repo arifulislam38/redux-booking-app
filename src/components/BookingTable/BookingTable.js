@@ -7,7 +7,6 @@ const BookingTable = () => {
   const dispatch = useDispatch();
 
   const dispatchFire = (id) =>{
-    console.log(id);
     dispatch(deleteFlight(id))
     
   }
