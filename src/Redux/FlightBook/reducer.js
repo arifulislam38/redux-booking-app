@@ -5,7 +5,7 @@ const initialState = {
 };
 
 const bookingReducer = (state = initialState, action) => {
-  console.log(action);
+
 
   if (action.type === BOOKFLIGHT) {
     return {

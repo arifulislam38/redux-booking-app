@@ -10,9 +10,10 @@ const BookingTable = () => {
     dispatch(deleteFlight(id))
     
   }
+
   return (
-    <div>
-      {state.length && (
+    <div className="arif">
+      {state.length>0 && (
         <div class="table-container">
           <table class="booking-table">
             <thead class="bg-gray-100/50">
